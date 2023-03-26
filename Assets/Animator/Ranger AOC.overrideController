@@ -7,5 +7,15 @@ AnimatorOverrideController:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Ranger AOC
-  m_Controller: {fileID: 0}
-  m_Clips: []
+  m_Controller: {fileID: 9100000, guid: d94b89b65ba214e42a98d5e3324b97bd, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 6720303635017113406, guid: 06359e5a2611e0a44820681f406845c3, type: 3}
+    m_OverrideClip: {fileID: 6720303635017113406, guid: 75d337b7d939b4c4d8114873ab0f7c1c, type: 3}
+  - m_OriginalClip: {fileID: -4630339522487117836, guid: 06359e5a2611e0a44820681f406845c3, type: 3}
+    m_OverrideClip: {fileID: -4630339522487117836, guid: 75d337b7d939b4c4d8114873ab0f7c1c, type: 3}
+  - m_OriginalClip: {fileID: 8017390324079358001, guid: 06359e5a2611e0a44820681f406845c3, type: 3}
+    m_OverrideClip: {fileID: 8017390324079358001, guid: 75d337b7d939b4c4d8114873ab0f7c1c, type: 3}
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: 06359e5a2611e0a44820681f406845c3, type: 3}
+    m_OverrideClip: {fileID: -5252816984213320552, guid: 75d337b7d939b4c4d8114873ab0f7c1c, type: 3}
+  - m_OriginalClip: {fileID: 2667949614841947897, guid: 06359e5a2611e0a44820681f406845c3, type: 3}
+    m_OverrideClip: {fileID: 2667949614841947897, guid: 75d337b7d939b4c4d8114873ab0f7c1c, type: 3}
