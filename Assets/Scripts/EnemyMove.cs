@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class MoveTo : MonoBehaviour
+public class EnemyMove : MonoBehaviour
 {
     public Transform player;
 
@@ -13,11 +13,20 @@ public class MoveTo : MonoBehaviour
 
     void Start()
     {
+        anim = GetComponent<Animator>();
         nav = GetComponent<NavMeshAgent>();
     }
 
     void Update()
     {
-        nav.SetDestination(player.position);
+        if (!GameManager.instance.GameOver)
+        {
+            nav.SetDestination(player.position);
+        }
+        else
+        {
+            nav.enabled = false;
+            anim.Play("Idle");
+        }
     }
 }

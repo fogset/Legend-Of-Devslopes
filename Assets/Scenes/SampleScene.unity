@@ -1752,7 +1752,7 @@ BoxCollider:
   m_GameObject: {fileID: 165230587}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.4, y: 0.5, z: 0.7}
   m_Center: {x: -0.9, y: 0, z: 0}
@@ -2046,7 +2046,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -3565695668601879429, guid: 344a966e326486948b9fb6d79b7737a7, type: 3}
   m_PrefabInstance: {fileID: 1169781426}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &174058390
+--- !u!65 &174058391
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8372,7 +8372,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -7717434526986931047, guid: 344a966e326486948b9fb6d79b7737a7, type: 3}
   m_PrefabInstance: {fileID: 1169781426}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &691247007
+--- !u!65 &691247008
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10967,7 +10967,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3580338928787749827, guid: b0bd6238b01497d4aaad9bac698ad845, type: 3}
   m_PrefabInstance: {fileID: 1821746721}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &837176733
+--- !u!65 &837176734
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10976,7 +10976,7 @@ BoxCollider:
   m_GameObject: {fileID: 837176732}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.3, y: 0.3, z: 1}
   m_Center: {x: 0, y: 0, z: -0.7}
@@ -12100,7 +12100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fc98627c09c4b4419a04423aef46531, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 100
+  startingHealth: 20
   timeSinceLastHit: 2
 --- !u!1 &905794694
 GameObject:
@@ -19263,7 +19263,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1549326484454929913, guid: 06359e5a2611e0a44820681f406845c3, type: 3}
   m_PrefabInstance: {fileID: 769618685}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &1468923184
+--- !u!65 &1468923185
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19272,7 +19272,7 @@ BoxCollider:
   m_GameObject: {fileID: 1468923183}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.4, y: 0.5, z: 0.7}
   m_Center: {x: -0.9, y: 0, z: 0}

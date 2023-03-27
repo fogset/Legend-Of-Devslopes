@@ -38,7 +38,6 @@ public class PlayerHealth : MonoBehaviour
         {
             if (other.tag == "Weapon")
             {
-                Debug.Log("takeHit");
                 takeHit();
                 timer = 0;
             }
